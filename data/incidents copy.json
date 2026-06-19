@@ -1,0 +1,16 @@
+[
+  {
+    "incident": "API returning 500 error",
+    "symptoms": "Timeout and high latency",
+    "root_cause": "DB connection pool exhausted",
+    "fix": "Restart service and increase pool size",
+    "risk": "low"
+  },
+  {
+    "incident": "Disk space full",
+    "symptoms": "Application crash",
+    "root_cause": "Log files not rotated",
+    "fix": "Clear logs and enable rotation",
+    "risk": "low"
+  }
+]

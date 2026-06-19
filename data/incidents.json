@@ -1,0 +1,170 @@
+[
+  {
+    "incident": "Linux server high CPU usage due to runaway process",
+    "symptoms": "Performance degradation, high CPU utilization",
+    "root_cause": "Runaway process consuming CPU",
+    "fix": "Identify process using top and kill PID",
+    "risk": "medium"
+  },
+  {
+    "incident": "Disk space full on Linux root partition",
+    "symptoms": "Application crash, storage alerts",
+    "root_cause": "Log accumulation or unused files",
+    "fix": "Clean logs in /var/log and remove unused files",
+    "risk": "low"
+  },
+  {
+    "incident": "SSH login failure on Linux server",
+    "symptoms": "Unable to connect via SSH",
+    "root_cause": "Firewall rules or sshd issue",
+    "fix": "Restart sshd service and check firewall rules",
+    "risk": "medium"
+  },
+  {
+    "incident": "Windows server CPU spike",
+    "symptoms": "System slowdown, high CPU usage",
+    "root_cause": "Process consuming excessive CPU",
+    "fix": "Check Task Manager and stop high usage process",
+    "risk": "medium"
+  },
+  {
+    "incident": "Windows disk full error",
+    "symptoms": "Application failure, disk alerts",
+    "root_cause": "Temporary files and storage overflow",
+    "fix": "Clean temp files and extend disk",
+    "risk": "low"
+  },
+  {
+    "incident": ".NET application throwing 500 error",
+    "symptoms": "Application failures, HTTP 500 errors",
+    "root_cause": "Null reference or application bug",
+    "fix": "Check logs and fix null reference exception",
+    "risk": "medium"
+  },
+  {
+    "incident": "Java application OutOfMemoryError",
+    "symptoms": "Application crash, memory errors",
+    "root_cause": "Insufficient heap memory",
+    "fix": "Increase heap size",
+    "risk": "high"
+  },
+  {
+    "incident": "Kubernetes pod crash loop",
+    "symptoms": "Pod restarting frequently",
+    "root_cause": "Application failure or config issue",
+    "fix": "Restart pod and check logs",
+    "risk": "medium"
+  },
+  {
+    "incident": "Database connection refused",
+    "symptoms": "Application cannot connect to DB",
+    "root_cause": "Database service down",
+    "fix": "Restart database service",
+    "risk": "high"
+  },
+  {
+    "incident": "Slow database queries",
+    "symptoms": "High latency, slow response",
+    "root_cause": "Missing indexes or inefficient queries",
+    "fix": "Add indexes",
+    "risk": "medium"
+  },
+  {
+    "incident": "API returning 503 error",
+    "symptoms": "Service unavailable errors",
+    "root_cause": "Backend service failure",
+    "fix": "Restart backend service",
+    "risk": "medium"
+  },
+  {
+    "incident": "Network latency high",
+    "symptoms": "Slow responses, timeout issues",
+    "root_cause": "Bandwidth or routing issues",
+    "fix": "Check routing and bandwidth",
+    "risk": "medium"
+  },
+  {
+    "incident": "DNS resolution failure",
+    "symptoms": "Unable to resolve hostnames",
+    "root_cause": "DNS service issue",
+    "fix": "Restart DNS service",
+    "risk": "medium"
+  },
+  {
+    "incident": "SSL certificate expired",
+    "symptoms": "HTTPS failure, security warnings",
+    "root_cause": "Expired certificate",
+    "fix": "Renew certificate",
+    "risk": "high"
+  },
+  {
+    "incident": "Unauthorized access attempt detected",
+    "symptoms": "Security alerts",
+    "root_cause": "Malicious login attempt",
+    "fix": "Block IP and reset credentials",
+    "risk": "high"
+  },
+  {
+    "incident": "File upload failure",
+    "symptoms": "User unable to upload files",
+    "root_cause": "File size limits",
+    "fix": "Increase file size limit",
+    "risk": "low"
+  },
+  {
+    "incident": "Cache not updating",
+    "symptoms": "Stale data",
+    "root_cause": "Cache invalidation issue",
+    "fix": "Clear cache",
+    "risk": "low"
+  },
+  {
+    "incident": "Redis cache unavailable",
+    "symptoms": "Cache connection errors",
+    "root_cause": "Redis service down",
+    "fix": "Restart Redis service",
+    "risk": "medium"
+  },
+  {
+    "incident": "Message queue not processing messages",
+    "symptoms": "Queue backlog",
+    "root_cause": "Queue service failure",
+    "fix": "Restart queue service",
+    "risk": "medium"
+  },
+  {
+    "incident": "Kafka broker down",
+    "symptoms": "Message processing failure",
+    "root_cause": "Broker outage",
+    "fix": "Restart broker",
+    "risk": "high"
+  },
+  {
+    "incident": "Cron job not running",
+    "symptoms": "Scheduled tasks not executing",
+    "root_cause": "Cron misconfiguration",
+    "fix": "Check cron config",
+    "risk": "low"
+  },
+  {
+    "incident": "Application crash after deployment",
+    "symptoms": "App not functioning post deploy",
+    "root_cause": "Bad release",
+    "fix": "Rollback to previous version",
+    "risk": "high"
+  },
+  {
+    "incident": "Server reboot required",
+    "symptoms": "System instability",
+    "root_cause": "Pending patch or resource issue",
+    "fix": "Schedule reboot",
+    "risk": "low"
+  },
+  {
+    "incident": "Config drift detected",
+    "symptoms": "Unexpected behavior",
+    "root_cause": "Configuration mismatch",
+    "fix": "Reapply configuration",
+    "risk": "medium"
+  }
+]
